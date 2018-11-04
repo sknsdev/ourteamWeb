@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+header{
+  width: 100%;
+  background: #000;
+  display: flex;
+
+}
+
+.header-logo{
+  text-transform: uppercase;
+  displa: block;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFF;
+  cursor: pointer;
+  margin-top: 56px;
+  margin-left: 12%;
+  padding-bottom: 4px;
+}
+
+nav{
+  margin-top: 43px;
+  margin-left: 29%;
+}
+
+.topnav{
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  padding: 12px 16px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.topnav a{
+  color: #fff;
+}
+
+.topnav a:hover{
+  border-bottom: 3px solid #00cccc;
+}
+
+
+.topnav .icon{
+  display: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+  .topnav a{
+    display: none;
+  }
+
+
+  .topnav a.icon{
+    float: right;
+    margin-right: 30px;
+    display: block;
+    color: #FFF;
+    font-size: 25px;
+  }
+  nav{
+    width: 80%;
+  }
+
+  .topnav.responsive{
+    position: relative;
+    top: 50px;
+    left: -200px;
+  }
+  header .topnav.responsive{
+    height: 340px;
+  }
+ .topnav.responsive a.icon{
+    position: absolute;
+    top: -40px;
+    right: -190px;
+  }
+  .topnav.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
