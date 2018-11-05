@@ -90,7 +90,7 @@ main .main-welcome p{
   font-size: 20px;
 }
 .wrapper{
- width: 60%;
+ width: 65%;
  margin: 0 auto;
 }
 
@@ -127,8 +127,54 @@ main .main-about{
   max-width: 450px;
 }
 
+.main-team{
+  background: #424242;
+  text-align: center;
+  padding: 100px 0 165px 0;
+  color: #fff;
+}
+.main-team h2{
+  font-size: 44px;
+  padding-bottom: 30px;
+}
 
+.line{
+  width: 150px;
+  height: 3px;
+  background: #00cccc;
+  position: relative;
+  left: 44%;
+  margin-bottom: 105px;
+}
 
+.photo{
+  background: url(../img/gitavatar.jpg) 0px no-repeat;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.team-cards{
+  display: flex;
+
+  
+}
+
+.card{
+  margin: 0 40px;
+}
+.name{
+  font-size: 20px;
+margin-bottom: 7px;
+}
+.work{
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.bio{
+  font-size: 14px;
+}
 
 
 /*------------------------------------------*/
@@ -191,5 +237,11 @@ main .about-right {
   margin-left: 0;
 }
 
+.team-cards{
+  flex-direction: column;
 
+}
+.photo{
+  margin-top: 20px;
+}
 }
