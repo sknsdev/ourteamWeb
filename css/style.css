@@ -28,7 +28,7 @@ header{
 
 .header-logo{
   text-transform: uppercase;
-  displa: block;
+  display: block;
   font-weight: 700;
   font-size: 24px;
   color: #FFF;
@@ -64,11 +64,6 @@ nav{
 .topnav .icon{
   display: none;
 }
-
-
-
-
-
 
 
 @media screen and (max-width: 1126px) {
