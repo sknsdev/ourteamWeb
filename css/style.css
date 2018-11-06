@@ -90,7 +90,7 @@ main .main-welcome p{
   font-size: 20px;
 }
 .wrapper{
- width: 65%;
+ width: 75%;
  margin: 0 auto;
 }
 
@@ -176,6 +176,28 @@ margin-bottom: 7px;
   font-size: 14px;
 }
 
+.job-cards{
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 30px;
+}
+
+.main-job h2{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.main-job p{
+  color: grey;
+  margin-bottom: 100px;
+}
+
+.single-job-card h4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 /*------------------------------------------*/
 @media screen and (max-width: 1126px) {
@@ -243,5 +265,9 @@ main .about-right {
 }
 .photo{
   margin-top: 20px;
+}
+
+.job-cards{
+  grid-template-columns: auto;
 }
 }
