@@ -267,6 +267,40 @@ margin-bottom: 10px;
   opacity: 1;
 }
 
+
+.contact-wrapper{
+ width: 753px;
+ margin: 0 auto auto auto;
+ color: #6c6c6c;
+}
+
+
+
+
+
+input{
+  width: 360px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+textarea{
+  width: 200px;
+  height: 163px;
+}
+
+input, textarea{
+  border: 1px solid #999999;
+}
+
+.red{
+  color: red;
+}
+
+.form-inputs{
+  display: flex;
+}
 /*------------------------------------------*/
 @media screen and (max-width: 1126px) {
   .topnav a{
