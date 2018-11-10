@@ -8,7 +8,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
-
+  background: #FFF;/*edge*/
 }
 
 a{
@@ -25,6 +25,16 @@ header{
   display: flex;
 
 }
+
+h2:after{
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  padding-top: 30px;
+  border-bottom: 3px solid #00cccc;
+}
+
 
 .header-logo{
   text-transform: uppercase;
@@ -92,6 +102,7 @@ main .main-welcome p{
 .wrapper{
  width: 75%;
  margin: 0 auto;
+ 
 }
 
 main .main-about{
@@ -138,14 +149,14 @@ main .main-about{
   padding-bottom: 30px;
 }
 
-.line{
+/*.line{
   width: 150px;
   height: 3px;
   background: #00cccc;
   position: relative;
   left: 44%;
   margin-bottom: 105px;
-}
+}sht happens*/
 
 .photo{
   background: url(../img/gitavatar.jpg) 0px no-repeat;
@@ -243,6 +254,9 @@ margin-bottom: 10px;
   padding-bottom: 100px;
 }
 
+.main-work h2{
+  margin-bottom: 20px;
+}
 
 .img-gallery{
   text-align: center;
@@ -318,6 +332,8 @@ input, textarea{
   text-align: center;
 }
 
+
+
 input[type=submit]{
   width: 165px;
   height: 40px;
@@ -328,6 +344,43 @@ input[type=submit]{
   text-align: center;
   border: none;
   
+}
+
+input[type=submit]:hover{
+background: #00cccc;
+}
+
+
+.contact-form{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  
+}
+
+.contact-form h2{
+  color: black;
+  margin-bottom: 20px;
+  
+}
+
+.forms-text{
+  text-align: center;
+}
+footer{
+  width: 100%;
+  height: auto;
+}
+
+.social{
+  display: flex;
+  justify-content: center; /*почему не посередине*/
+  background: #182133;
+}
+
+.social img{
+  margin-left: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /*------------------------------------------*/
 @media screen and (max-width: 1126px) {
@@ -413,4 +466,11 @@ main .about-right {
   display: none;
 }
 
+main .contact-form{
+  flex-direction: column;
+}
+
+
+
+/*end of media*/
 }
